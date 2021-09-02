@@ -1,0 +1,9 @@
+@use 'src/styles/vars' as v;
+
+.counter {
+  margin: 2rem 0 v.$gutter;
+  font-size: 1.5em;
+  color: white;
+  border-bottom: 1px solid white;
+  padding: v.$gutter / 2 0;
+}

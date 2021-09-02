@@ -1,0 +1,10 @@
+@use 'sass:color';
+
+$color-primary:#2e5849;
+$color-form: color.scale($color-primary, $lightness: -25%);
+$color-form-border: color.scale($color-primary, $lightness: -40%);
+$color-placeholder: rgba(255, 255, 255, 0.5);
+$color-list: #eee;
+
+
+$gutter: 1rem;
